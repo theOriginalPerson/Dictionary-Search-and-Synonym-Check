@@ -17,4 +17,4 @@
     <li>Set a condition that checks if the keys' values are the same AND that their indices are different! (If both conditions true, return a statement showing your keys (the words that are synonymous); if false, return a statement saying you could not find any synonyms)</li>
 </ol>
 <h3>How to use it</h3>
-<p>Simply run the file and let if find the synonyms for you. You can copy and paste your own dictionary (make sure it's named the same as listed in file I've provided) to double check if you've got synonyms. Remember, this only checks for the <b>first</b> set (a pair, really) of synonyms.</p>
+<p>Simply run the file and let it find the synonyms for you. You can also choose to search the dictionary if you'd like. You can copy and paste your own dictionary (make sure it's named the same as listed in the file I've provided) to double check if you've got synonyms. Remember, this only checks for the <b>first</b> set (a pair, really) of synonyms.</p>
