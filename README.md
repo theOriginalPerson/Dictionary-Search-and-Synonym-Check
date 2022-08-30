@@ -8,8 +8,10 @@
     <li>Then add a temporary "key holder" variable that stores the value of a key so it can be called throughout the looping process. In this same step, make sure to create a "key index" variable so it can record at <b>which location</b> the first synonym was found. <b>This is important for three reasons</b>: 
     <ol>
         <li>Python dictionaries do not have an order, so you need to create one</li>
-        <li>If you try to run this function without an index, it'll simply return the same key's value twice because it doesn't know that that's not the same key from before, and thus assumes it's a synonym</li><br>
-        <p><b>If you're confused by this step, think of it this way</b>: when you walk your normal path to your house, you remember all the things you pass by on the way. A Python interpreter needs a path for its dictionaries laid out for it to remember where each piece of information is stored, and this is done through indexing. Without this path that helps you remember, you'd easily get lost and assume every house that looks like yours is, in fact, yours (if you had the mind of a computer, of course).</p><br>
+        <li>If you try to run this function without an index, it'll simply return the same key's value twice because it doesn't know that that's not the same key from before, and thus assumes it's a synonym</li>
+        <ul>
+            <li><b>If you're confused by this step, think of it this way</b>: when you walk your normal path to your house, you remember all the things you pass by on the way. A Python interpreter needs a path for its dictionaries laid out for it to remember where each piece of information is stored, and this is done through indexing. Without this path that helps you remember, you'd easily get lost and assume every house that looks like yours is, in fact, yours (if you had the mind of a computer, of course).</li>
+        </ul>
         <li>We'll use this to compare it with the second key's value</li>
     </ol>
 	<li>Create a second <code>for</code> loop within the first loop. This will be our "potential synonym" loop that checks for a potential second synonym</li>
